@@ -1,0 +1,132 @@
+/* Estilos para el fondo genereal de la página */
+body {
+    background-color: rgb(55, 147, 110);
+}
+
+/* Estilos para el encabezado del ppio*/
+header {
+    background-color: rgb(24, 86, 44);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Estilos para la barra de navegación */
+nav {
+    background-color: rgb(34, 130, 55);
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    list-style: none;   
+}
+/*Estilos para el main*/
+main {
+    margin: auto;
+    text-align: center;
+    outline: 0.5px;
+    width: 100%;
+  }
+.seccionSkincare{ /*index*/
+    background-color: rgb(74, 140, 149);
+    color: white;
+    padding: 10px 1px;
+    text-align: center;
+    list-style: none; 
+}
+.articleIndexSkincare{ /*index*/
+    background-color: rgb(87, 235, 225);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    list-style: none; 
+}
+.articleSkincare1{ /*Skincare*/
+    background-color: rgb(87, 235, 225);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    list-style: none; 
+}
+.articleSkincare2{ /*Skincare*/
+    background-color: rgb(134, 235, 87);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    list-style: none; 
+}
+.articleSkincare3{ /*Skincare*/
+    background-color: rgb(218, 235, 87);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    list-style: none; 
+}
+.articleSkincare4{ /*Skincare*/
+    background-color: rgb(235, 164, 87);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    list-style: none; 
+}
+
+/* Estilos para textos de "encabezado" */
+h1 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;   
+}
+/* Estilos para los párrafos */
+p {
+    font-family: 'Reboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*Estilos para el contenedor, imagen y video. Todos responsive*/
+figure {
+    margin: 0 auto;
+    padding: 0;
+}
+picture{
+    display: flex;
+    justify-content: center;   
+}
+img {
+    max-width: 100%;
+}
+
+/* Estilos para enlaces */
+a {
+    color: black; 
+    text-decoration: none;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: disc; /* Marcador de viñetas */
+    margin: 0 auto;
+}
+
+
+/* Estilos para el pie de página 
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}*/

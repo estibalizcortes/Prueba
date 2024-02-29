@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi primera pagina personal">
+    <meta name="author" content="Estibaliz Cortés García">
+    <meta name="robots" content="index,follow">
+    <title>ESTIBALIZ CORTES GARCIA</title>
+    <link rel="icon" href="./fotos/iconoLoro.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+        <nav>
+            <div>
+                <a class="button" href="index.html">Inicio</a>
+            </div>
+        </nav>
+        <figure>
+            <picture>
+                <source media="(max-widith: 799px)" srcset="./fotos/Portada400px.jpg">
+                <source media="(min-width: 800px)" srcset="./fotos/Portada800px.jpg">
+                <img src="./fotos/Portada800px.jpg" alt="Imagen de la portada">
+            </picture>
+        </figure>
+    </header>
+    <main>
+        <section id="seccionSkincare" class="seccionSkincare">
+            <h2></h2>
+            <article class="articleIndexSkincare">
+                <a href="skincare.html" id="skincare.html">
+                    <h2></h2>
+                    <p></p>
+                </a>
+                <a href="skincare.html">
+                    <figure>
+                        <picture>
+                        </picture>
+                        <figcaption style="text-align: center;">Todo sobre el <i><q>Skincare</q></i></figcaption>
+                    </figure>
+                </a>
+                <a href="skincare.html">
+                    <h3>Leer más...</h3>
+                </a>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
+
+
+
+/* Estilos para el fondo genereal de la página */
+body {
+background-color: rgb(55, 147, 110);
+}
+
+/* Estilos para el encabezado del ppio*/
+header {
+background-color: rgb(24, 86, 44);
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+/*Estilos para la barra de navegación */
+nav {
+background-color: rgb(34, 130, 55);
+color: white;
+padding: 10px 0px;
+text-align: center;
+list-style: none;
+}
+/*Estilos para el main*/
+main {
+margin: auto;
+text-align: center;
+outline: 0.5px;
+width: 100%;
+}
+.seccionSkincare{ /*index*/
+background-color: rgb(74, 140, 149);
+color: white;
+padding: 10px 1px;
+text-align: center;
+list-style: none;
+}
+.articleIndexSkincare{ /*index*/
+background-color: rgb(87, 235, 225);
+color: white;
+margin-left: 5px;
+margin-right: 5px;
+text-align: center;
+list-style: none;
+}
+
+/* Estilos para textos de "encabezado" */
+h1 {
+font-family: 'Reboto', sans-serif;
+font-weight: bold;
+font-size: 38px;
+text-align: center;
+}
+h2 {
+font-family: 'Reboto', sans-serif;
+font-weight: bold;
+font-size: 22px;
+text-align: center;
+}
+/* Estilos para los párrafos */
+p {
+font-family: 'Reboto', sans-serif;
+font-size: 15px;
+color: black;
+text-align: justify;
+padding: 10px;
+}
+
+/*Estilos para el contenedor, imagen y video. Todos responsive*/
+figure {
+margin: 0 auto;
+padding: 0;
+}
+picture{
+display: flex;
+justify-content: center;
+}
+img {
+max-width: 100%;
+}
+
+/* Estilos para enlaces */
+a {
+color: black;
+text-decoration: none;
+}
+
+/* Estilos para las listas */
+ul {
+list-style-type: disc; /* Marcador de viñetas */
+margin: 0 auto;
+}
+
+
+/* Estilos para el pie de página
+footer {
+background-color: black;
+color: white;
+padding: 10px;
+text-align: center;
+margin: 0 auto;
+}*/
+
+
+table {
+width: 100%;
+border-collapse: collapse;
+width: 100%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+table,
+th,
+td {
+border: 1px solid black;
+}
+
+th,
+td {
+padding: 10px;
+text-align: left;
+}
+
+.img1 {
+width: 200px;
+height: 167px;
+}
+
+table td img {
+display: block;
+margin: 0 auto;
+}
+
+form {
+max-width: 600px;
+margin: 20px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+color: black;
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"], 
+input[type="tel"],
+textarea,
+select {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid black;
+border-radius: 5px;
+box-sizing: border-box;
+}
+/* Estilo para la cabecera de la tabla */
+thead {
+    background-color: #f2f2f2b7;
+}
+
+
+
+textarea {
+    font-family: 'Reboto', sans-serif;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.formulario {
+    padding: 10px 20px;
+    padding: 20px;
+    background-color: #005b05;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+.formulario:hover {
+    background-color: #005b05;
+}
+  
+fieldset legend {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+<main>
+    <article>
+        <h2>Por favor introduzca sus datos: </h2>
+        <form action="mailto:cortesgarciaestibaliz@gmail.com" method="post" enctype="text/plain">
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required> <br><br>
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo">
+                <option value="consulta">Consulta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamaciones">Reclamaciones</option>
+            </select>
+
+            <fieldset>
+                <legend>Preferencias de contacto:</legend>
+                <label><input type="checkbox" name="preferencias" value="email"> Email</label>
+                <label><input type="checkbox" name="preferencias" value="telefono"> Teléfono</label>
+                <label><input type="checkbox" name="preferencias" value="whatsapp"> WhatsApp</label><br><br>
+            </fieldset>
+        </form>
+        <div>
+            <p>
+                <a href="../index.html#NoticiaPlaystation">
+                    <img class="ImgBack" src="../images/botonInicio.png" alt="Imagen para regresar">
+                </a>
+            </p>
+        </div>
+    </article>
+</main>
+
